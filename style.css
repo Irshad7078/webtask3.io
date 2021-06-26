@@ -1,0 +1,143 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+/* .container{
+    border: 2px solid rgb(196, 168, 168);
+} */
+header, footer{
+    display: flex;
+    background-color: rgb(208, 230, 245);
+    justify-content: space-between;
+    align-items:  center;
+    position: sticky;
+    top: 0px;
+}
+nav  a, footer a {
+     color: rgb(22, 21, 21);
+     text-decoration: none;
+     margin: 3em;
+       font-weight: bold;
+   
+}
+nav li, footer li{
+    float: left;
+    list-style: none;
+    flex-wrap: wrap;
+}
+nav li a:hover,#sbtn:hover, footer li a:hover, #active {
+    color:rgb(118, 118, 129);
+}
+#box1{
+    display:  flex;
+}
+#logo{
+    width:  41px;
+    /* height:  9vh; */
+    filter: invert(100%);
+    align-self: center;
+}
+#main_heading{  
+  color: rgb(131, 109, 109);
+  align-self: center;
+  padding: 0.3em;
+}
+#sbox{
+    width: 20vw;
+    border-top-left-radius: 2em;
+    border-bottom-left-radius: 2em;
+    padding:0.5em;
+    border: 2px solid black;
+}
+#sbtn{
+    padding:0.5em;
+    border-top-right-radius: 2em;
+    border-bottom-right-radius: 2em;
+    cursor: pointer;
+    border: 2px solid black;
+}
+#sbtn:active{
+      background-color: rgb(213, 248, 218);
+}
+#sec1{
+  background-image: url(img/img1.jpg);
+  /* height:fit-content; */
+ background-size: 100%;
+ background-repeat: no-repeat;
+ display: flex;
+ flex-wrap: wrap;
+ background-color: rgb(20, 20, 20);
+
+   
+}
+#img2{ 
+    width:200px;
+    align-self: center;
+   
+}
+#heading2{
+    
+    font-size: 3em;
+color:rgb(255, 255, 255);
+margin: auto;
+
+}
+#offers{
+    font-size: 2em;
+    width: 35vh;
+    margin: auto;
+    color: white;
+}
+#todaysoffers{
+    background-color: rgb(96, 63, 148);
+}
+#offerbox{
+    display:  flex;
+
+flex-wrap: wrap;
+
+justify-content: center;
+}
+.offers{
+    height:300px;
+    width:300px;
+    border: 2px solid rgb(0, 0, 0);
+   margin: 3em;
+   background-repeat: no-repeat;
+   color:rgb(14, 13, 13);
+   border-radius: 5px;
+   cursor: pointer;
+}
+footer{
+    height: 10vh;
+    
+}
+#sec2{
+    background-color: rgb(166, 190, 190);
+}
+span{
+    text-decoration: line-through;
+}
+#offer1{
+    background: url(img/coat.jpg) center center/ cover;   
+}
+#offer2{
+    background: url(img/jackets.jpg) center center/ cover;
+}
+#offer3{
+    background: url(img/jeans.jpg) center center/ cover;
+}
+#offer4{
+    background: url(img/kurtas.jpg) center center/ cover;
+}
+#offer5{
+    background: url(img/plazo.jpg) center center/ cover;
+}
+#offer6{
+    background: url(img/tshirt.jpg) center center/ cover
+    ;
+}
+

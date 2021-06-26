@@ -1,0 +1,132 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header, footer{
+    display: flex;
+    background-color: rgb(208, 230, 245);
+    justify-content: space-between;
+    align-items:  center;
+    position: sticky;
+    top: 0px;
+}
+nav  a, footer a {
+     color: rgb(22, 21, 21);
+     text-decoration: none;
+     margin: 3em;
+       font-weight: bold;
+   
+}
+nav li, footer li{
+    float: left;
+    list-style: none;
+    flex-wrap: wrap;
+}
+nav li a:hover,#sbtn:hover, footer li a:hover, #active {
+    color:rgb(118, 118, 129);
+}
+
+#logo{
+    width:  41px;
+    /* height:  9vh; */
+    filter: invert(100%);
+    align-self: center;
+}
+#box1{
+    display:  flex;
+}
+#main_heading{  
+    color: white;
+    align-self: center;
+    padding: 0.3em;
+  }
+  #sbox{
+      width: 20vw;
+      border-top-left-radius: 2em;
+      border-bottom-left-radius: 2em;
+      padding:0.5em;
+      border: 2px solid black;
+  }
+  #sbtn{
+      padding:0.5em;
+      border-top-right-radius: 2em;
+      border-bottom-right-radius: 2em;
+      cursor: pointer;
+      border: 2px solid black;
+  }
+  #sbtn:active{
+    background-color: rgb(213, 248, 218);
+}
+footer{
+    height: 10vh;
+    width: 100vw;
+}
+   
+   
+   #img2{ 
+    width:200px;
+    align-self: center;
+   
+}
+#sec1{
+    background-image: url('img/feedbackbg.jpg') ;
+    /* height:fit-content; */
+   background-size: 100%;
+   background-repeat: no-repeat;
+   display: flex;
+   flex-wrap: wrap;
+   background-color: rgb(0, 0, 0);
+  
+     
+  }
+  #heading2{
+    
+    font-size: 3em;
+color:rgb(255, 255, 255);
+margin: auto;
+
+}
+#sec2{
+    background-image: url('img/clothes.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: rgb(98, 217, 253);
+}
+#todaysoffers{
+    background-color: rgb(132, 0, 255);
+}
+#offers{
+    font-size: 2em;
+    width: 35vh;
+    margin: auto;
+    color: white;
+}
+#info{
+ float: left;
+ margin: 4em;
+ border: 2px solid rgb(89, 0, 255);
+ padding: 3em;
+ text-align: center;
+ background-color: rgb(217, 224, 248);
+ border-radius: 1em;
+ font-family:'Ubuntu', sans-serif;
+}
+.vansh{
+    margin: 1em;
+  
+}
+input[type="email"],input[type="submit"], textarea{
+    width:100%;
+    border: 3px solid rgb(47, 0, 255);
+   padding: 0.3em;
+   text-align: center;
+   border-radius: 0.3em;
+   font-family:'Ubuntu', sans-serif;
+}
+input[type="submit"]:hover{
+    cursor: pointer;
+    background-color: rgb(216, 247, 216);
+}
